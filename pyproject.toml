@@ -1,0 +1,13 @@
+[project]
+name = "primepaths"
+version = "0.1.0"
+description = "Prime Path generation from source code CFGs"
+requires-python = ">=3.10"
+dependencies = ["networkx>=3.2","staticfg>=0.9.5"]
+
+[project.scripts]
+primepaths = "primepaths.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
