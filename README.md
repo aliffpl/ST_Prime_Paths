@@ -2,8 +2,6 @@
 
 Complete prime-path testing framework.
 
-# this was initially for git push user documentation
-
 # PrimePaths — Prime Path generation from source code CFGs
 
 This tool:
